@@ -1,0 +1,663 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    background-color: #32a852;
+    margin-bottom: 50px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+#test {
+    padding-left: 20px ;
+    padding-right: 20px;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.header a{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    background-image: url(mainhero.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+    font-size: 4.7rem;
+}
+
+/* .hero p{
+    font-size: 1.3rem;
+} */
+
+.hero a{
+    font-size: 1rem;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+    color: #32a852;
+    padding: 8px 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.hero a:hover{
+    color:rgb(216, 216, 216);
+    background-color:#267a3c ;
+    /* opacity: 0.5; */
+}
+
+.warp-card {
+    /* margin:auto; */
+    height: 94%;
+    width: 94%;
+    /* background-color: #32a852; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu-produk{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='2112' preserveAspectRatio='none' viewBox='0 0 1920 2112'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1218%26quot%3b)' fill='none'%3e%3ccircle r='160' cx='447.52' cy='384.98' fill='rgba(208%2c 147%2c 38%2c 0.5)'%3e%3c/circle%3e%3cpath d='M811.45 1401.1299999999999 L1117.0700000000002 1040.69L641.7043017274852 898.3543017274851z' stroke='rgba(50%2c 168%2c 82%2c 0.5)' stroke-width='1.9' stroke-dasharray='3%2c 3'%3e%3c/path%3e%3crect width='605.76' height='605.76' clip-path='url(%26quot%3b%23SvgjsClipPath1219%26quot%3b)' x='1602.38' y='1783.05' fill='url(%26quot%3b%23SvgjsPattern1220%26quot%3b)' transform='rotate(169.92%2c 1905.26%2c 2085.93)'%3e%3c/rect%3e%3crect width='660' height='660' clip-path='url(%26quot%3b%23SvgjsClipPath1221%26quot%3b)' x='1464.69' y='507.8' fill='url(%26quot%3b%23SvgjsPattern1222%26quot%3b)' transform='rotate(177.75%2c 1794.69%2c 837.8)'%3e%3c/rect%3e%3crect width='192' height='192' clip-path='url(%26quot%3b%23SvgjsClipPath1223%26quot%3b)' x='1075.43' y='-57.54' fill='url(%26quot%3b%23SvgjsPattern1224%26quot%3b)' transform='rotate(67.13%2c 1171.43%2c 38.46)'%3e%3c/rect%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1218'%3e%3crect width='1920' height='2112' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpattern x='0' y='0' width='605.76' height='12.62' patternUnits='userSpaceOnUse' id='SvgjsPattern1220'%3e%3crect width='605.76' height='6.31' x='0' y='0' fill='rgba(208%2c 147%2c 38%2c 0.5)'%3e%3c/rect%3e%3crect width='605.76' height='6.31' x='0' y='6.31' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1219'%3e%3ccircle r='151.44' cx='1905.26' cy='2085.93'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1222'%3e%3cpath d='M0 6L3 0L6 6' stroke='rgba(50%2c 168%2c 82%2c 0.5)' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1221'%3e%3ccircle r='165' cx='1794.69' cy='837.8'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='192' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1224'%3e%3crect width='192' height='3' x='0' y='0' fill='rgba(3%2c 123%2c 11%2c 0.5)'%3e%3c/rect%3e%3crect width='192' height='3' x='0' y='3' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1223'%3e%3ccircle r='48' cx='1171.43' cy='38.46'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 110vh;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 50px; */
+}
+
+.card-produk {
+    box-shadow: 0px 4px 10px -5px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 450px;
+    background-color: #32a852;
+    /* border:2px solid #32a852; */
+    border-radius: 15px;
+    padding: 20px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.card-produk img{
+    /* margin-top: 20px; */
+    border-radius: 11px;
+    width: 250px;
+    background-color: #32a852;
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+.menu-produk .card-produk .nama{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: white; */
+    width: 250px;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.menu-produk .card-produk .harga{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 35px;
+    /* background-color: white; */
+    color: white;
+    width: 250px;
+}
+
+.menu-produk .card-produk .rightside{
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.menu-produk .card-produk .rightside a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    /* background-color: aqua; */
+text-align: center;
+    color: #32a852;
+    /* background-color: #32a852; */
+    padding: 8px 15px;
+    border-radius: 10px;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.menu-produk .card-produk .rightside:hover{
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #32a852;
+    height: 40px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    width: 100%;
+    color: white;
+}
+
+.menu-produk .card-produk .rightside a:hover{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    /* background-color: aqua; */
+    padding: 8px 15px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.footer {
+    position: sticky;
+    width: 100%;
+    background-color:#32a852;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px
+}
+
+.footer p{
+    margin-top: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 0.8em;
+    font-family: 'Poppins', sans-serif;
+}
+@media screen and (max-width: 1366px) {
+    /* Aturan CSS untuk layar dengan lebar maksimal 1366px */
+    .hero {
+        background-image: url(mainhero.png);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 50vh;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+    
+    .hero p{
+        font-size: 1.1rem;
+    }
+    
+    .hero a{
+        font-size: 0.8rem;
+        text-align: center;
+        background-color: white;
+        text-decoration: none;
+        color: #32a852;
+        padding: 8px 15px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+    }
+    
+    .hero a:hover{
+        color:rgb(216, 216, 216);
+        background-color:#267a3c ;
+        /* opacity: 0.5; */
+    }
+
+    .warp-card {
+        /* margin:auto; */
+        height: 94%;
+        width: 94%;
+        /* background-color: #32a852; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .menu-produk{
+        width: 100%;
+        height: 140vh;
+        /* background-color: black; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding-top: 50px;
+    }
+
+    .card-produk {
+        display: flex;
+        flex-direction: column;
+        width: 225px;
+        height: 350px;
+        /* background-color: #32a852; */
+        border:2px solid #32a852;
+        border-radius: 15px;
+        padding: 20px;
+    }
+
+    .card-produk img{
+        /* margin-top: 20px; */
+        width: 195px;
+        background-color: #32a852;
+        align-self: center;
+        margin-bottom: 15px;
+    }
+
+    .menu-produk .card-produk .nama{
+        /* background-color: antiquewhite; */
+        width: 195px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.9em;
+        font-weight: bold;
+        margin: 0;
+        /* margin-bottom: 10px; */
+    }
+    
+    .menu-produk .card-produk .harga{
+        width: 195px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.9em;
+        margin-bottom: 20px;
+    }
+    
+    .menu-produk .card-produk .rightside{
+        border-radius: 8px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8em;
+        width: 100%;
+        transition: 0.2s;
+        height: 35px;
+    }
+    
+    .menu-produk .card-produk .rightside a{
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        /* background-color: aqua; */
+    text-align: center;
+        color: #32a852;
+        /* background-color: #32a852; */
+        padding: 8px 15px;
+        border-radius: 10px;
+        width: 100%;
+        transition: 0.2s;
+    }
+    
+    .menu-produk .card-produk .rightside:hover{
+        box-sizing: border-box;
+        border-radius: 8px;
+        background-color: #32a852;
+        height: 35px;
+        border: 2px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8em;
+        width: 100%;
+        color: white;
+    }
+    
+    .menu-produk .card-produk .rightside a:hover{
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        /* background-color: aqua; */
+        padding: 8px 15px;
+        border-radius: 10px;
+        width: 100%;
+    }
+  }
+
+@media screen and (max-width: 1366px) {
+    /* Aturan CSS untuk layar dengan lebar maksimal 1366px */
+    .hero {
+        background-image: url(mainhero.png);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 50vh;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+    
+    .hero p{
+        font-size: 1.1rem;
+    }
+    
+    .hero a{
+        font-size: 0.8rem;
+        text-align: center;
+        background-color: white;
+        text-decoration: none;
+        color: #32a852;
+        padding: 8px 15px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+    }
+    
+    .hero a:hover{
+        color:rgb(216, 216, 216);
+        background-color:#267a3c ;
+        /* opacity: 0.5; */
+    }
+
+    .warp-card {
+        /* margin:auto; */
+        height: 94%;
+        width: 94%;
+        /* background-color: #32a852; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+
+    .menu-produk{
+        width: 100%;
+        height: 140vh;
+        /* background-color: black; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding-top: 50px;
+    }
+
+    .card-produk {
+        display: flex;
+        flex-direction: column;
+        width: 225px;
+        height: 350px;
+        /* background-color: #32a852; */
+        border:2px solid #32a852;
+        border-radius: 15px;
+        padding: 20px;
+    }
+
+    .card-produk img{
+        /* margin-top: 20px; */
+        width: 195px;
+        background-color: #32a852;
+        align-self: center;
+        margin-bottom: 15px;
+    }
+
+    .menu-produk .card-produk .nama{
+        /* background-color: antiquewhite; */
+        width: 195px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.9em;
+        font-weight: bold;
+        margin: 0;
+        /* margin-bottom: 10px; */
+    }
+    
+    .menu-produk .card-produk .harga{
+        width: 195px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.9em;
+        margin-bottom: 20px;
+    }
+    
+    .menu-produk .card-produk .rightside{
+        border-radius: 8px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8em;
+        width: 100%;
+        transition: 0.2s;
+        height: 35px;
+    }
+    
+    .menu-produk .card-produk .rightside a{
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        /* background-color: aqua; */
+    text-align: center;
+        color: #32a852;
+        /* background-color: #32a852; */
+        padding: 8px 15px;
+        border-radius: 10px;
+        width: 100%;
+        transition: 0.2s;
+    }
+    
+    .menu-produk .card-produk .rightside:hover{
+        box-sizing: border-box;
+        border-radius: 8px;
+        background-color: #32a852;
+        height: 35px;
+        border: 2px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.8em;
+        width: 100%;
+        color: white;
+    }
+    
+    .menu-produk .card-produk .rightside a:hover{
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        /* background-color: aqua; */
+        padding: 8px 15px;
+        border-radius: 10px;
+        width: 100%;
+    }
+  }
+
+@media screen and (max-width: 828px) {
+  /* Aturan CSS untuk layar dengan lebar maksimal 828px */
+  .hero {
+    background-image: url(mainhero.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 25vh;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+  .hero h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    text-align: center
+}
+
+.hero p{
+    font-size: 0.8rem;
+}
+
+.hero a{
+    font-size: 0.7rem;
+    text-align: center;
+    background-color: white;
+    text-decoration: none;
+    color: #32a852;
+    padding: 5px 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.hero a:hover{
+    color:rgb(216, 216, 216);
+    background-color:#267a3c ;
+    /* opacity: 0.5; */
+}
+
+
+.menu-produk{
+    padding-top:0px ;
+    width: 100%;
+    height: 180vh;
+    /* background-color: black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* padding-top: 60px; */
+}
+
+.warp-card {
+    /* margin:auto; */
+    /* background-color: aqua; */
+    width: 94%;
+    height: 1350px;
+    /* background-color: #32a852; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+}
+
+.card-produk {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 235px;
+    /* background-color: #32a852; */
+    border:1px solid #32a852;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.card-produk img{
+    /* margin-top: 20px; */
+    width: 125px;
+    background-color: #32a852;
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+.menu-produk .card-produk .nama{
+    width: 125px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.6em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.menu-produk .card-produk .harga{
+    width: 125px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.6em;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.menu-produk .card-produk .rightside{
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6em;
+    width: 100%;
+}
+
+.menu-produk .card-produk .rightside a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: #32a852;
+    /* background-color: #32a852; */
+    /* padding: 8px 15px; */
+    /* border-radius: 10px; */
+}
+}
